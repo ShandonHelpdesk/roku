@@ -1,0 +1,39 @@
+{
+  "providerName": "Shandon Baptist Church",
+  "lastUpdated": "2026-07-23T09:00:00-04:00",
+  "language": "en",
+  "liveFeeds": [
+    {
+      "id": "shandon_live",
+      "title": "Shandon Baptist Church - Live",
+      "shortDescription": "Watch the current live service from Shandon Baptist Church.",
+      "longDescription": "Join us live for worship and the message from Shandon Baptist Church in Columbia, South Carolina.",
+      "thumbnail": "https://REPLACE-WITH-YOUR-IMAGE-HOST/live-thumb.jpg",
+      "tags": ["live", "worship", "sermon"],
+      "content": {
+        "dateAdded": "2026-07-23T09:00:00-04:00",
+        "videos": [
+          {
+            "url": "https://resi.media/sh-cl-sc/Manifest.m3u8",
+            "quality": "HD",
+            "videoType": "HLS"
+          }
+        ],
+        "duration": 86400
+      }
+    }
+  ],
+  "categories": [
+    {
+      "name": "Live",
+      "playlistName": "live_playlist",
+      "order": "manual"
+    }
+  ],
+  "playlists": [
+    {
+      "name": "live_playlist",
+      "itemIds": ["shandon_live"]
+    }
+  ]
+}
