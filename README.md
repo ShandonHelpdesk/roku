@@ -1,2 +1,2 @@
-# rou
+# roku
 Shandon Roku channel files
