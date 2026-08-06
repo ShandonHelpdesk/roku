@@ -1,0 +1,84 @@
+{
+  "campaigns": {
+    "kids":            { "orientation": "portrait",  "type": "images", "seconds_per_slide": 8 },
+    "general":         { "orientation": "landscape", "type": "images", "seconds_per_slide": 8 },
+    "group-list":      { "orientation": "landscape", "type": "images", "seconds_per_slide": 8 },
+    "dinner-menu":     { "orientation": "portrait",  "type": "images", "seconds_per_slide": 10 },
+    "welcome":         { "orientation": "portrait",  "type": "video" },
+    "announcements":   { "orientation": "portrait",  "type": "images", "seconds_per_slide": 12 },
+    "missions":        { "orientation": "landscape", "type": "images", "seconds_per_slide": 8 },
+    "resource-center": { "orientation": "landscape", "type": "images", "seconds_per_slide": 8 }
+  },
+
+  "roles": {
+    "kids-hall": {
+      "orientation": "portrait",
+      "tiles": ["kids"],
+      "default": "kids",
+      "schedule": []
+    },
+    "main-st": {
+      "orientation": "landscape",
+      "tiles": ["general", "group-list"],
+      "default": "general",
+      "schedule": [
+        { "days": ["Wed"], "start": "15:00", "end": "21:00", "campaign": "group-list" }
+      ]
+    },
+    "assembly-st": {
+      "orientation": "landscape",
+      "tiles": ["general", "group-list"],
+      "default": "general",
+      "schedule": [
+        { "days": ["Wed"], "start": "15:00", "end": "21:00", "campaign": "group-list" }
+      ]
+    },
+    "gym": {
+      "orientation": "portrait",
+      "tiles": ["welcome", "dinner-menu"],
+      "default": "welcome",
+      "schedule": [
+        { "days": ["Wed"], "start": "15:00", "end": "21:00", "campaign": "dinner-menu" }
+      ]
+    },
+    "lobby-welcome": {
+      "orientation": "portrait",
+      "tiles": ["welcome"],
+      "default": "welcome",
+      "schedule": []
+    },
+    "lobby-announcements": {
+      "orientation": "portrait",
+      "tiles": ["announcements"],
+      "default": "announcements",
+      "schedule": []
+    },
+    "missions": {
+      "orientation": "landscape",
+      "tiles": ["missions"],
+      "default": "missions",
+      "schedule": []
+    },
+    "resource-center": {
+      "orientation": "landscape",
+      "tiles": ["resource-center"],
+      "default": "resource-center",
+      "schedule": []
+    }
+  },
+
+  "devices": {
+    "PASTE_DEVICE_ID_kids-hall-1":     "kids-hall",
+    "PASTE_DEVICE_ID_kids-hall-2":     "kids-hall",
+    "PASTE_DEVICE_ID_kids-hall-3":     "kids-hall",
+    "PASTE_DEVICE_ID_main-st-1":       "main-st",
+    "PASTE_DEVICE_ID_main-st-2":       "main-st",
+    "PASTE_DEVICE_ID_assembly-st-1":   "assembly-st",
+    "PASTE_DEVICE_ID_assembly-st-2":   "assembly-st",
+    "PASTE_DEVICE_ID_gym":             "gym",
+    "PASTE_DEVICE_ID_lobby-welcome":   "lobby-welcome",
+    "PASTE_DEVICE_ID_lobby-announce":  "lobby-announcements",
+    "PASTE_DEVICE_ID_missions":        "missions",
+    "PASTE_DEVICE_ID_resource-center": "resource-center"
+  }
+}
