@@ -1,44 +1,44 @@
 {
   "campaigns": {
-    "kids":            { "orientation": "portrait",  "type": "images", "seconds_per_slide": 8 },
-    "general":         { "orientation": "landscape", "type": "images", "seconds_per_slide": 8 },
-    "group-list":      { "orientation": "landscape", "type": "images", "seconds_per_slide": 8 },
-    "dinner-menu":     { "orientation": "portrait",  "type": "images", "seconds_per_slide": 10 },
-    "welcome":         { "orientation": "portrait",  "type": "video" },
-    "announcements":   { "orientation": "portrait",  "type": "images", "seconds_per_slide": 12 },
-    "missions":        { "orientation": "landscape", "type": "images", "seconds_per_slide": 8 },
-    "resource-center": { "orientation": "landscape", "type": "images", "seconds_per_slide": 8 }
+    "announcements-lobby":   { "orientation": "portrait",  "type": "images", "seconds_per_slide": 12 },
+    "general":               { "orientation": "landscape", "type": "images", "seconds_per_slide": 8 },
+    "kids-vertical":         { "orientation": "portrait",  "type": "images", "seconds_per_slide": 8 },
+    "midweek":               { "orientation": "landscape", "type": "images", "seconds_per_slide": 8 },
+    "midweek-vertical-menu": { "orientation": "portrait",  "type": "images", "seconds_per_slide": 10 },
+    "welcome":               { "orientation": "portrait",  "type": "video" },
+    "missions":              { "orientation": "landscape", "type": "images", "seconds_per_slide": 8 },
+    "resource-center":       { "orientation": "landscape", "type": "images", "seconds_per_slide": 8 }
   },
 
   "roles": {
     "kids-hall": {
       "orientation": "portrait",
-      "tiles": ["kids"],
-      "default": "kids",
+      "tiles": ["kids-vertical"],
+      "default": "kids-vertical",
       "schedule": []
     },
     "main-st": {
       "orientation": "landscape",
-      "tiles": ["general", "group-list"],
+      "tiles": ["general", "midweek"],
       "default": "general",
       "schedule": [
-        { "days": ["Wed"], "start": "15:00", "end": "21:00", "campaign": "group-list" }
+        { "days": ["Wed"], "start": "15:00", "end": "21:00", "campaign": "midweek" }
       ]
     },
     "assembly-st": {
       "orientation": "landscape",
-      "tiles": ["general", "group-list"],
+      "tiles": ["general", "midweek"],
       "default": "general",
       "schedule": [
-        { "days": ["Wed"], "start": "15:00", "end": "21:00", "campaign": "group-list" }
+        { "days": ["Wed"], "start": "15:00", "end": "21:00", "campaign": "midweek" }
       ]
     },
     "gym": {
       "orientation": "portrait",
-      "tiles": ["welcome", "dinner-menu"],
+      "tiles": ["welcome", "midweek-vertical-menu"],
       "default": "welcome",
       "schedule": [
-        { "days": ["Wed"], "start": "15:00", "end": "21:00", "campaign": "dinner-menu" }
+        { "days": ["Wed"], "start": "15:00", "end": "21:00", "campaign": "midweek-vertical-menu" }
       ]
     },
     "lobby-welcome": {
@@ -49,8 +49,8 @@
     },
     "lobby-announcements": {
       "orientation": "portrait",
-      "tiles": ["announcements"],
-      "default": "announcements",
+      "tiles": ["announcements-lobby"],
+      "default": "announcements-lobby",
       "schedule": []
     },
     "missions": {
