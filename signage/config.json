@@ -22,7 +22,7 @@
       "tiles": ["general", "midweek"],
       "default": "general",
       "schedule": [
-        { "days": ["Wed"], "start": "15:00", "end": "21:00", "campaign": "midweek" }
+        { "days": ["Wed"], "start": "14:40", "end": "14:45", "campaign": "midweek" }
       ]
     },
     "assembly-st": {
