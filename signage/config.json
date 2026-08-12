@@ -22,7 +22,7 @@
       "tiles": ["general", "midweek"],
       "default": "general",
       "schedule": [
-        { "days": ["Wed"], "start": "14:40", "end": "14:45", "campaign": "midweek" }
+        { "days": ["Wed"], "start": "14:50", "end": "14:55", "campaign": "midweek" }
       ]
     },
     "assembly-st": {
@@ -71,11 +71,11 @@
     "PASTE_DEVICE_ID_kids-hall-1":     "kids-hall",
     "PASTE_DEVICE_ID_kids-hall-2":     "kids-hall",
     "PASTE_DEVICE_ID_kids-hall-3":     "kids-hall",
-    "PASTE_DEVICE_ID_main-st-1":       "main-st",
+    "192.168.1.200":                   "main-st",
     "PASTE_DEVICE_ID_main-st-2":       "main-st",
     "PASTE_DEVICE_ID_assembly-st-1":   "assembly-st",
     "PASTE_DEVICE_ID_assembly-st-2":   "assembly-st",
-    "192.168.1.200":                   "gym",
+    "PASTE_DEVICE_ID_gym":             "gym",
     "PASTE_DEVICE_ID_lobby-welcome":   "lobby-welcome",
     "PASTE_DEVICE_ID_lobby-announce":  "lobby-announcements",
     "PASTE_DEVICE_ID_missions":        "missions",
