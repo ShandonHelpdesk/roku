@@ -75,7 +75,7 @@
     "PASTE_DEVICE_ID_main-st-2":       "main-st",
     "PASTE_DEVICE_ID_assembly-st-1":   "assembly-st",
     "PASTE_DEVICE_ID_assembly-st-2":   "assembly-st",
-    "PASTE_DEVICE_ID_gym":             "gym",
+    "192.168.1.200":                   "gym",
     "PASTE_DEVICE_ID_lobby-welcome":   "lobby-welcome",
     "PASTE_DEVICE_ID_lobby-announce":  "lobby-announcements",
     "PASTE_DEVICE_ID_missions":        "missions",
