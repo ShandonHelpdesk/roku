@@ -8,6 +8,7 @@
     "welcome":               { "orientation": "portrait",  "type": "video" },
     "missions":              { "orientation": "landscape", "type": "images", "seconds_per_slide": 8 },
     "resource-center":       { "orientation": "landscape", "type": "images", "seconds_per_slide": 8 }
+    "welcome-test":          { "orientation": "landscape", "type": "video" }
   },
 
   "roles": {
@@ -19,7 +20,7 @@
     },
     "main-st": {
       "orientation": "landscape",
-      "tiles": ["general", "midweek"],
+      "tiles": ["general", "midweek", "welcome-test"],
       "default": "general",
       "schedule": [
         { "days": ["Wed"], "start": "14:50", "end": "14:55", "campaign": "midweek" }
