@@ -16,8 +16,8 @@
   "roles": {
     "kids-hall": {
       "orientation": "portrait",
-      "tiles": ["kids-vertical"],
-      "default": "kids-vertical",
+      "tiles": ["kids-hall-upstairs"],
+      "default": "kids-upstairs",
       "schedule": []
     },
     "main-st": {
