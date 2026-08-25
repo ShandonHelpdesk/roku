@@ -19,7 +19,7 @@
       "default": "kids-hall-upstairs",
       "schedule": []
     },
-        "kids-check-in": {
+    "kids-check-in": {
       "orientation": "portrait",
       "tiles": ["kids-check-in"],
       "default": "kids-check-in",
