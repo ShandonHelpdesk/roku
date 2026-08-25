@@ -9,7 +9,7 @@
     "kids-hall-upstairs":     { "orientation": "portrait",  "type": "images", "seconds_per_slide": 8 },
     "students":               { "orientation": "portrait",  "type": "images", "seconds_per_slide": 8 },
     "missions":               { "orientation": "landscape", "type": "images", "seconds_per_slide": 8 },
-    "resource-center":        { "orientation": "landscape", "type": "images", "seconds_per_slide": 8 },
+    "resource-center":        { "orientation": "landscape", "type": "images", "seconds_per_slide": 8 }
   },
 
   "roles": {
