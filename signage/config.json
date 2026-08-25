@@ -17,7 +17,7 @@
     "kids-hall": {
       "orientation": "portrait",
       "tiles": ["kids-hall-upstairs"],
-      "default": "kids-upstairs",
+      "default": "kids-hall-upstairs",
       "schedule": []
     },
     "main-st": {
