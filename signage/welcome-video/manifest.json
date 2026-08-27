@@ -1,5 +1,6 @@
 {
   "type": "video",
   "file": "AUGUST LOOP.mp4",
-  "source_id": "quickXorHash:QObDO/19UokWr1ilYnyit2mL0bY="
+  "source_id": "quickXorHash:QObDO/19UokWr1ilYnyit2mL0bY=",
+  "render_id": "rot=cw;max=40;tgt=32;crf=20;shrink=1;v2"
 }
