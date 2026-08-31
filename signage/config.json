@@ -9,7 +9,8 @@
     "kids-hall-upstairs":     { "orientation": "portrait",  "type": "images", "seconds_per_slide": 8 },
     "students":               { "orientation": "portrait",  "type": "images", "seconds_per_slide": 8 },
     "missions":               { "orientation": "landscape", "type": "images", "seconds_per_slide": 8 },
-    "resource-center":        { "orientation": "landscape", "type": "images", "seconds_per_slide": 8 }
+    "resource-center":        { "orientation": "landscape", "type": "images", "seconds_per_slide": 8 },
+    "warehouse-lobby":        { "orientation": "landscape", "type": "images", "seconds_per_slide": 8 }
   },
 
   "roles": {
@@ -72,6 +73,12 @@
       "tiles": ["resource-center"],
       "default": "resource-center",
       "schedule": []
+    },
+    "college": {
+      "orientation": "landscape",
+      "tiles": ["warehouse-lobby"],
+      "default": "warehouse-lobby",
+      "schedule": []
     }
   },
 
@@ -87,6 +94,7 @@
     "PASTE_DEVICE_ID_lobby-welcome":   "lobby-welcome",
     "PASTE_DEVICE_ID_lobby-announce":  "lobby-announcements",
     "PASTE_DEVICE_ID_missions":        "missions",
-    "PASTE_DEVICE_ID_resource-center": "resource-center"
+    "PASTE_DEVICE_ID_resource-center": "resource-center",
+    "PASTE_DEVICE_ID_college":         "college"    
   }
 }
