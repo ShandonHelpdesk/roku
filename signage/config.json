@@ -7,7 +7,7 @@
     "welcome-video":          { "orientation": "portrait",  "type": "video" },
     "kids-check-in":          { "orientation": "portrait",  "type": "images", "seconds_per_slide": 8 },
     "kids-hall-upstairs":     { "orientation": "portrait",  "type": "images", "seconds_per_slide": 8 },
-    "students":               { "orientation": "portrait",  "type": "images", "seconds_per_slide": 8 },
+    "students":               { "orientation": "portrait",  "type": "video" },
     "missions":               { "orientation": "landscape", "type": "images", "seconds_per_slide": 8 },
     "resource-center":        { "orientation": "landscape", "type": "images", "seconds_per_slide": 8 },
     "warehouse-lobby":        { "orientation": "landscape", "type": "images", "seconds_per_slide": 8 }
@@ -79,7 +79,12 @@
       "tiles": ["warehouse-lobby"],
       "default": "warehouse-lobby",
       "schedule": []
-    }
+    },
+    "students": {
+      "orientation": "portrait",
+      "tiles": ["new-here"],
+      "default": "new-here",
+      "schedule": []
   },
 
   "devices": {
@@ -95,6 +100,7 @@
     "PASTE_DEVICE_ID_lobby-announce":  "lobby-announcements",
     "PASTE_DEVICE_ID_missions":        "missions",
     "PASTE_DEVICE_ID_resource-center": "resource-center",
-    "10.1.30.50":                     "college"    
+    "10.1.30.50":                      "college",
+    "PASTE_DEVICE_ID_students":        "students",
   }
 }
