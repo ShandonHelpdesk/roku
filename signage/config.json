@@ -7,7 +7,7 @@
     "welcome-video":          { "orientation": "portrait",  "type": "video" },
     "kids-check-in":          { "orientation": "portrait",  "type": "images", "seconds_per_slide": 8 },
     "kids-hall-upstairs":     { "orientation": "portrait",  "type": "images", "seconds_per_slide": 8 },
-    "students":               { "orientation": "portrait",  "type": "video" },
+    "new-here":               { "orientation": "portrait",  "type": "video" },
     "missions":               { "orientation": "landscape", "type": "images", "seconds_per_slide": 8 },
     "resource-center":        { "orientation": "landscape", "type": "images", "seconds_per_slide": 8 },
     "warehouse-lobby":        { "orientation": "landscape", "type": "images", "seconds_per_slide": 8 }
@@ -85,6 +85,7 @@
       "tiles": ["new-here"],
       "default": "new-here",
       "schedule": []
+    }
   },
 
   "devices": {
