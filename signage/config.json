@@ -88,7 +88,7 @@
   },
 
   "devices": {
-    "PASTE_DEVICE_ID_kids-hall-1":     "kids-hall",
+    "10.1.30.3":                       "kids-hall",
     "PASTE_DEVICE_ID_kids-hall-2":     "kids-hall",
     "PASTE_DEVICE_ID_kids-hall-3":     "kids-check-in",
     "192.168.1.200":                   "main-st",
