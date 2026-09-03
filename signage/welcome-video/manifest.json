@@ -1,7 +1,7 @@
 {
   "type": "video",
-  "file": "Lobby Video Vertical.mp4",
-  "poster": "Lobby Video Vertical.poster.jpg",
-  "source_id": "quickXorHash:D46jr6+RGv8af2vQ5dZDXf0tXBs=",
+  "file": "LobbyTVsSmall.mp4",
+  "poster": "LobbyTVsSmall.poster.jpg",
+  "source_id": "quickXorHash:CRZus3FEv6nLbDFFngIwrtYQxhE=",
   "render_id": "rot=cw;max=40;tgt=32;crf=20;shrink=1;v3"
 }
