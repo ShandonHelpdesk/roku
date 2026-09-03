@@ -92,7 +92,7 @@
     "10.1.30.3":                       "kids-hall",
     "10.1.30.4":                       "kids-hall",
     "10.1.30.5":                       "kids-check-in",
-    "192.168.1.200":                   "main-st",
+    "PASTE_DEVICE_ID_main-st           "main-st",
     "PASTE_DEVICE_ID_main-st-2":       "main-st",
     "PASTE_DEVICE_ID_assembly-st-1":   "assembly-st",
     "PASTE_DEVICE_ID_assembly-st-2":   "assembly-st",
@@ -102,6 +102,6 @@
     "PASTE_DEVICE_ID_missions":        "missions",
     "PASTE_DEVICE_ID_resource-center": "resource-center",
     "10.1.30.50":                      "college",
-    "PASTE_DEVICE_ID_students":        "students"
+    "192.168.1.200":                   "students"
   }
 }
