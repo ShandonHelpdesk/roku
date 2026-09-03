@@ -1,6 +1,7 @@
 {
   "type": "video",
   "file": "IMG_8195.mp4",
+  "poster": "IMG_8195.poster.jpg",
   "source_id": "quickXorHash:ivxP5tIeizVNkONlXyvXFxK6JCA=",
-  "render_id": "rot=cw;max=40;tgt=32;crf=20;shrink=1;v2"
+  "render_id": "rot=cw;max=40;tgt=32;crf=20;shrink=1;v3"
 }
