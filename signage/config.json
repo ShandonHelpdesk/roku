@@ -92,7 +92,7 @@
     "10.1.30.3":                       "kids-hall",
     "10.1.30.4":                       "kids-hall",
     "10.1.30.5":                       "kids-check-in",
-    "PASTE_DEVICE_ID_main-st           "main-st",
+    "PASTE_DEVICE_ID_main-st":         "main-st",
     "PASTE_DEVICE_ID_main-st-2":       "main-st",
     "PASTE_DEVICE_ID_assembly-st-1":   "assembly-st",
     "PASTE_DEVICE_ID_assembly-st-2":   "assembly-st",
