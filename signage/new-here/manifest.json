@@ -1,6 +1,7 @@
 {
   "type": "video",
   "file": "01 NEW-HERE-2.mp4",
+  "poster": "01 NEW-HERE-2.poster.jpg",
   "source_id": "quickXorHash:6sxvsASciM0MLKEU0D90RsWhoNQ=",
-  "render_id": "rot=cw;max=40;tgt=32;crf=20;shrink=0;v2"
+  "render_id": "rot=cw;max=40;tgt=32;crf=20;shrink=0;v3"
 }
