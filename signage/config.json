@@ -102,6 +102,6 @@
     "PASTE_DEVICE_ID_missions":        "missions",
     "10.1.100.5":                      "resource-center",
     "10.1.30.50":                      "college",
-    "192.168.1.200":                   "students"
+    "10.1.30.7":                       "students"
   }
 }
