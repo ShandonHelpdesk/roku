@@ -42,7 +42,7 @@
         { "days": ["Wed"], "start": "15:00", "end": "20:00", "campaign": "midweek" }
       ]
     },
-    "gym": {
+    "main-st-welcome": {
       "orientation": "portrait",
       "tiles": ["welcome-video", "midweek-vertical"],
       "default": "welcome-video",
@@ -101,9 +101,8 @@
     "10.1.30.12":                      "assembly-st",
     "10.1.30.13":                      "students",
     "10.1.30.15":                      "lobby-announcements",
-    "PASTE_DEVICE_ID_gym":             "gym",
+    "10.1.30.16":                      "main-st-welcome",
     "PASTE_DEVICE_ID_lobby-welcome":   "lobby-welcome",
-
     "PASTE_DEVICE_ID_connections":     "connections"
   }
 }
