@@ -2,7 +2,7 @@
   "campaigns": {
     "announcements-vertical": { "orientation": "portrait",  "type": "images", "seconds_per_slide": 12 },
     "general":                { "orientation": "landscape", "type": "images", "seconds_per_slide": 8 },
-    "go-campaign"             { "orientation": "portrait", "type": "images", "seconds_per_slide": 8 },
+    "go-campaign":            { "orientation": "portrait", "type": "images", "seconds_per_slide": 8 },
     "midweek":                { "orientation": "landscape", "type": "images", "seconds_per_slide": 8 },
     "midweek-vertical":       { "orientation": "portrait",  "type": "images", "seconds_per_slide": 10 },
     "welcome-video":          { "orientation": "portrait",  "type": "video" },
