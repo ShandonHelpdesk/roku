@@ -100,9 +100,10 @@
     "10.1.30.11":                      "assembly-st",
     "10.1.30.12":                      "assembly-st",
     "10.1.30.13":                      "students",
+    "10.1.30.15":                      "lobby-announcements",
     "PASTE_DEVICE_ID_gym":             "gym",
     "PASTE_DEVICE_ID_lobby-welcome":   "lobby-welcome",
-    "PASTE_DEVICE_ID_lobby-announce":  "lobby-announcements",
+
     "PASTE_DEVICE_ID_connections":     "connections"
   }
 }
