@@ -103,7 +103,8 @@
     "10.1.30.13":                      "students",
     "10.1.30.15":                      "lobby-announcements",
     "10.1.30.16":                      "main-st-welcome",
-    "PASTE_DEVICE_ID_lobby-welcome":   "lobby-welcome",
+    "10.1.30.17":                      "lobby-welcome",
+    "10.1.30.18":                      "lobby-welcome",
     "PASTE_DEVICE_ID_connections":     "connections"
   }
 }
