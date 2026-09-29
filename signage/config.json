@@ -45,11 +45,15 @@
     },
     "main-st-welcome": {
       "orientation": "portrait",
-      "tiles": ["welcome-video", "midweek-vertical"],
+      "tiles": ["welcome-video", "midweek-vertical", "go-campaign"],
       "default": "welcome-video",
-      "schedule": [
-        { "days": ["Wed"], "start": "15:00", "end": "20:00", "campaign": "midweek-vertical" }
-      ]
+      "schedule": []
+    },
+    "assembly-st-welcome": {
+      "orientation": "portrait",
+      "tiles": ["welcome-video", "go-campaign"],
+      "default": "welcome-video",
+      "schedule": []
     },
     "lobby-welcome": {
       "orientation": "portrait",
@@ -95,6 +99,7 @@
     "10.1.30.4":                       "kids-hall",
     "10.1.30.5":                       "kids-check-in",
     "10.1.100.5":                      "resource-center",
+    "10.1.100.7":                      "connections",
     "10.1.30.8":                       "main-st",
     "10.1.30.9":                       "main-st",
     "10.1.30.10":                      "main-st",
@@ -105,6 +110,7 @@
     "10.1.30.16":                      "main-st-welcome",
     "10.1.30.17":                      "lobby-welcome",
     "10.1.30.18":                      "lobby-welcome",
-    "PASTE_DEVICE_ID_connections":     "connections"
+    "10.1.30.19":                      "assembly-st-welcome"
+    
   }
 }
