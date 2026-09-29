@@ -91,7 +91,7 @@
 
   "devices": {
     "10.1.30.50":                      "college",
-    "10.1.30.20":                      "kids-hall",
+    "10.1.30.3":                       "kids-hall",
     "10.1.30.4":                       "kids-hall",
     "10.1.30.5":                       "kids-check-in",
     "10.1.100.5":                      "resource-center",
