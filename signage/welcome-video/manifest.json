@@ -1,7 +1,7 @@
 {
-  "type": "video",
-  "file": "LobbyTVsSmall.mp4",
-  "poster": "LobbyTVsSmall.poster.jpg",
-  "source_id": "quickXorHash:CRZus3FEv6nLbDFFngIwrtYQxhE=",
-  "render_id": "rot=cw;max=40;tgt=32;crf=20;shrink=1;v3"
+  "type": "images",
+  "seconds_per_slide": 8,
+  "files": [
+    "Welcome Food Lines Sign.png"
+  ]
 }
