@@ -1,7 +1,5 @@
 {
-  "type": "video",
-  "file": "Thanksgiving_Welcome_1080x1920_Fixed.mp4",
-  "poster": "Thanksgiving_Welcome_1080x1920_Fixed.poster.jpg",
-  "source_id": "quickXorHash:Lf05lyxeLYDYQn5hTgEosGr9ibU=",
-  "render_id": "rot=cw;max=40;tgt=32;crf=20;shrink=0;v3"
+  "type": "images",
+  "seconds_per_slide": 8,
+  "files": []
 }
