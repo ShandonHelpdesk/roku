@@ -1,7 +1,7 @@
 {
-  "type": "images",
-  "seconds_per_slide": 10,
-  "files": [
-    "Thanksgiving_Welcome_1080x1920.jpg"
-  ]
+  "type": "video",
+  "file": "LobbyTVsSmall.mp4",
+  "poster": "LobbyTVsSmall.poster.jpg",
+  "source_id": "quickXorHash:CRZus3FEv6nLbDFFngIwrtYQxhE=",
+  "render_id": "rot=cw;max=40;tgt=32;crf=20;shrink=1;v3"
 }
